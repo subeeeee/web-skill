@@ -1,7 +1,8 @@
 <template lang="pug">
   .conSelf
+    div {{limit}}
     com-self(v-if="limit" :limit="limit - 1")
-    span {{limit}}
+    div {{limit}}
 </template>
 
 <script>
